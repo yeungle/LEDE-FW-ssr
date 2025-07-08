@@ -43,5 +43,7 @@ rm -rf kenzok8-packages
 #git clone --depth=1 -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
 git clone --depth=1 https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
 
+sed -i '/commit firewall/a\	set uhttpd.main.max_requests=50\n	commit uhttpd' feeds/helloworld/luci-app-ssr-plus/root/etc/uci-defaults/luci-ssr-plus
+
 ./scripts/feeds update -a
 ./scripts/feeds install -a
