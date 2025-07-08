@@ -22,8 +22,11 @@
 rm -rf feeds/luci/themes/luci-theme-argon
 rm -rf feeds/luci/applications/luci-app-adguardhome
 rm -rf feeds/luci/applications/luci-app-smartdns
+rm -rf feeds/luci/applications/luci-app-mosdns
 rm -rf feeds/packages/net/adguardhome
 rm -rf feeds/packages/net/smartdns
+rm -rf feeds/packages/net/mosdns
+rm -rf feeds/packages/utils/v2dat
 
 #git clone --depth=1 -b main https://github.com/fw876/helloworld.git package/helloworld
 
@@ -38,6 +41,9 @@ cp -rf kenzok8-packages/adguardhome package/adguardhome
 cp -rf kenzok8-packages/luci-app-adguardhome package/luci-app-adguardhome
 cp -rf kenzok8-packages/smartdns package/smartdns
 cp -rf kenzok8-packages/luci-app-smartdns package/luci-app-smartdns
+cp -rf kenzok8-packages/mosdns package/mosdns
+cp -rf kenzok8-packages/luci-app-mosdns package/luci-app-mosdns
+cp -rf kenzok8-packages/v2dat package/v2dat
 rm -rf kenzok8-packages
 
 #git clone --depth=1 -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
