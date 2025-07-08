@@ -27,6 +27,7 @@ rm -rf feeds/packages/net/adguardhome
 rm -rf feeds/packages/net/smartdns
 rm -rf feeds/packages/net/mosdns
 rm -rf feeds/packages/utils/v2dat
+rm -rf feeds/packages/net/v2ray-geodata
 
 #git clone --depth=1 -b main https://github.com/fw876/helloworld.git package/helloworld
 
@@ -44,6 +45,7 @@ cp -rf kenzok8-packages/luci-app-smartdns package/luci-app-smartdns
 cp -rf kenzok8-packages/mosdns package/mosdns
 cp -rf kenzok8-packages/luci-app-mosdns package/luci-app-mosdns
 cp -rf kenzok8-packages/v2dat package/v2dat
+cp -rf kenzok8-packages/v2ray-geodata package/v2ray-geodata
 rm -rf kenzok8-packages
 
 #git clone --depth=1 -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
