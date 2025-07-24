@@ -30,7 +30,7 @@ config server_subscribe
 	option ss_type 'ss-rust'
 	option allow_insecure '0'
 	option switch '1'
-	list subscribe_url 'https://times1752216010.subxiandan.top:9604/v2b/paopaogou/api/v1/client/subscribe?token=ce3f5054803ab75eda912394c536da0d#'
+	list subscribe_url 'https://times1752216010.subxiandan.top:9604/v2b/paopaogou/api/v1/client/subscribe?token=ce3f5054803ab75eda912394c536da0dyl'
 
 config access_control
 	option lan_ac_mode '0'
